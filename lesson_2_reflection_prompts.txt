@@ -11,13 +11,24 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	use git diff to the files affected and git add the file you want to commit. use git reset -- hard to discard changes in working directory and staging area 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	experimental versions, multi languages support
+
 How do the diagrams help you visualize the branch structure?
+
+	it helps to visualize checkout on a previous commit and start a new branch logically
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	all the commits from both branchs are merged together sorted by timestamp. 
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Automatic merging is good when there is no conflict to both branches
+
